@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var recipeTitleLabel: UILabel!
     
-    @IBOutlet weak var recipeMethodLabel: UILabel!
+    @IBOutlet weak var recipeMethodText: UITextView!
     
     var allRecipes = AllRecipe()
     
@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         
         self.recipeImageView.image = UIImage(named: nextRecipe.imageName)
         self.recipeTitleLabel.text = nextRecipe.name
-        self.recipeMethodLabel.text = nextRecipe.method
+        self.recipeMethodText.text = nextRecipe.method
     }
     
 }
