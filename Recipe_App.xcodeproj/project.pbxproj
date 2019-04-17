@@ -12,8 +12,6 @@
 		8495B94B22677E32008F8F8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8495B94922677E32008F8F8D /* Main.storyboard */; };
 		8495B94D22677E34008F8F8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8495B94C22677E34008F8F8D /* Assets.xcassets */; };
 		8495B95022677E34008F8F8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8495B94E22677E34008F8F8D /* LaunchScreen.storyboard */; };
-		8495B95B22677E34008F8F8D /* Recipe_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495B95A22677E34008F8F8D /* Recipe_AppTests.swift */; };
-		8495B96622677E34008F8F8D /* Recipe_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495B96522677E34008F8F8D /* Recipe_AppUITests.swift */; };
 		8495B974226782DF008F8F8D /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8495B973226782DF008F8F8D /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,11 +41,7 @@
 		8495B94F22677E34008F8F8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8495B95122677E34008F8F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8495B95622677E34008F8F8D /* Recipe_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Recipe_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8495B95A22677E34008F8F8D /* Recipe_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_AppTests.swift; sourceTree = "<group>"; };
-		8495B95C22677E34008F8F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8495B96122677E34008F8F8D /* Recipe_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Recipe_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8495B96522677E34008F8F8D /* Recipe_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe_AppUITests.swift; sourceTree = "<group>"; };
-		8495B96722677E34008F8F8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8495B973226782DF008F8F8D /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				8495B94422677E32008F8F8D /* Recipe_App */,
-				8495B95922677E34008F8F8D /* Recipe_AppTests */,
-				8495B96422677E34008F8F8D /* Recipe_AppUITests */,
 				8495B94322677E32008F8F8D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,24 +100,6 @@
 				8495B95122677E34008F8F8D /* Info.plist */,
 			);
 			path = Recipe_App;
-			sourceTree = "<group>";
-		};
-		8495B95922677E34008F8F8D /* Recipe_AppTests */ = {
-			isa = PBXGroup;
-			children = (
-				8495B95A22677E34008F8F8D /* Recipe_AppTests.swift */,
-				8495B95C22677E34008F8F8D /* Info.plist */,
-			);
-			path = Recipe_AppTests;
-			sourceTree = "<group>";
-		};
-		8495B96422677E34008F8F8D /* Recipe_AppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8495B96522677E34008F8F8D /* Recipe_AppUITests.swift */,
-				8495B96722677E34008F8F8D /* Info.plist */,
-			);
-			path = Recipe_AppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8495B95B22677E34008F8F8D /* Recipe_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8495B96622677E34008F8F8D /* Recipe_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
